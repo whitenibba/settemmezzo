@@ -1,0 +1,114 @@
+
+body{
+    min-height: 100vh;
+    background-color: #eff0f3;
+}
+
+.overall{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #eff0f3;
+}
+.loginModal .card.text-center{
+    margin: auto;
+    margin-top: calc(50vh - 170px);
+}
+
+#qty-label-modal {
+    font-size: 25px;
+    padding: 0px 10px;
+    color: white;
+    background-color: #0d6efd;
+}
+
+.navbar button{
+    height:40px;
+    margin: 0;
+}
+.navbar .dropdown-menu{
+    min-width:auto;
+}
+.navbar .dropdown-menu i{
+    margin-right:5px;
+}
+.navbar .d-flex{
+    width: calc(100% - 70px);
+    max-width: 250px;
+}
+
+.pagination-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    justify-content: center;
+}
+.pagination-bar .btn-group{
+    width: fit-content;
+    overflow-x: auto;
+    max-width: 90vw;
+}
+
+.row{
+    margin: 10px;
+    justify-content: space-around;
+    width: calc(100% - 20px);
+}
+.row .col{
+    padding:10px;
+}
+
+.body-container img.card-img-top{
+    height: 200px;
+}
+
+.card{
+    width: 15rem;
+}
+
+.card button{
+    font-size: 15px;
+}
+.card .prod-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card .row1, .card .row2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card .row2{
+    margin-top: 10px;
+}
+
+#no-found-alert{
+    display:none;
+    font-size: 30px;
+    margin: 150px auto;
+    width: fit-content;
+}
+
+@media screen and (max-width:360px) {
+    
+    
+    
+    /*Centra gli elementi della navbar quando si sovrappongono*/
+    .navbar .bg-body-tertiary{
+        display:flex !important;/*Altrimenti non lo accetta perchè body è definito block*/
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:470px) {
+    
+    #qty-btn-group{
+        flex-direction: column;
+    }
+}
+
+

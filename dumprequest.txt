@@ -1,0 +1,14 @@
+GET /favicon.ico HTTP/1.1
+
+HTTP headers:
+Host: 192.168.1.12
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.1.12/
+Accept-Encoding: gzip, deflate
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: PHPSESSID=hsc3vn09jds85069fma1qhe1pn
+
+Request body:
+
